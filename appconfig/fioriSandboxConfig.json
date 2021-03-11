@@ -22,33 +22,13 @@
                   }
                 },
                 {
-                  "id": "ams3_module",
+                  "id": "ams_module",
                   "size": "1x1",
                   "tileType": "sap.ushell.ui.tile.StaticTile",
                   "properties": {
-                    "chipId": "catalogTile_ams3_module",
-                    "title": "ams3_module",
-                    "targetURL": "#ams3_module-display"
-                  }
-                },
-                {
-                  "id": "amsright_module",
-                  "size": "1x1",
-                  "tileType": "sap.ushell.ui.tile.StaticTile",
-                  "properties": {
-                    "chipId": "catalogTile_amsright_module",
-                    "title": "amsright_module",
-                    "targetURL": "#amsright_module-display"
-                  }
-                },
-                {
-                  "id": "UI5_freestyle",
-                  "size": "1x1",
-                  "tileType": "sap.ushell.ui.tile.StaticTile",
-                  "properties": {
-                    "chipId": "catalogTile_UI5_freestyle",
-                    "title": "UI5_freestyle",
-                    "targetURL": "#UI5_freestyle-display"
+                    "chipId": "catalogTile_ams_module",
+                    "title": "ams_module",
+                    "targetURL": "#ams_module-display"
                   }
                 }
               ]
@@ -79,39 +59,13 @@
                 "additionalParameters": "allowed"
               }
             },
-            "ams3_module": {
-              "semanticObject": "ams3_module",
+            "ams_module": {
+              "semanticObject": "ams_module",
               "action": "display",
               "resolutionResult": {
                 "applicationType": "SAPUI5",
-                "additionalInformation": "SAPUI5.Component=ams3ns.ams3module",
-                "url": "/apps/ams3_module/webapp"
-              },
-              "signature": {
-                "parameters": {},
-                "additionalParameters": "allowed"
-              }
-            },
-            "amsright_module": {
-              "semanticObject": "amsright_module",
-              "action": "display",
-              "resolutionResult": {
-                "applicationType": "SAPUI5",
-                "additionalInformation": "SAPUI5.Component=amsrightns.amsrightmodule",
-                "url": "/apps/amsright_module/webapp"
-              },
-              "signature": {
-                "parameters": {},
-                "additionalParameters": "allowed"
-              }
-            },
-            "UI5_freestyle": {
-              "semanticObject": "UI5_freestyle",
-              "action": "display",
-              "resolutionResult": {
-                "applicationType": "SAPUI5",
-                "additionalInformation": "SAPUI5.Component=",
-                "url": "/apps/UI5_freestyle/webapp"
+                "additionalInformation": "SAPUI5.Component=amsns.amsmodule",
+                "url": "/apps/ams_module/webapp"
               },
               "signature": {
                 "parameters": {},
