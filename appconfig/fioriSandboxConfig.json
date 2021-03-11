@@ -22,13 +22,13 @@
                   }
                 },
                 {
-                  "id": "ams_module",
+                  "id": "tg_ams_module",
                   "size": "1x1",
                   "tileType": "sap.ushell.ui.tile.StaticTile",
                   "properties": {
-                    "chipId": "catalogTile_ams_module",
-                    "title": "ams_module",
-                    "targetURL": "#ams_module-display"
+                    "chipId": "catalogTile_tg_ams_module",
+                    "title": "tg_ams_module",
+                    "targetURL": "#tg_ams_module-display"
                   }
                 }
               ]
@@ -59,13 +59,13 @@
                 "additionalParameters": "allowed"
               }
             },
-            "ams_module": {
-              "semanticObject": "ams_module",
+            "tg_ams_module": {
+              "semanticObject": "tg_ams_module",
               "action": "display",
               "resolutionResult": {
                 "applicationType": "SAPUI5",
-                "additionalInformation": "SAPUI5.Component=amsns.amsmodule",
-                "url": "/apps/ams_module/webapp"
+                "additionalInformation": "SAPUI5.Component=tgamsns.tgamsmodule",
+                "url": "/apps/tg_ams_module/webapp"
               },
               "signature": {
                 "parameters": {},
