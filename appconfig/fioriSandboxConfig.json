@@ -30,6 +30,16 @@
                     "title": "tg_ams_module",
                     "targetURL": "#tg_ams_module-display"
                   }
+                },
+                {
+                  "id": "ams_module_cds",
+                  "size": "1x1",
+                  "tileType": "sap.ushell.ui.tile.StaticTile",
+                  "properties": {
+                    "chipId": "catalogTile_ams_module_cds",
+                    "title": "ams_module_cds",
+                    "targetURL": "#ams_module_cds-display"
+                  }
                 }
               ]
             }
@@ -66,6 +76,19 @@
                 "applicationType": "SAPUI5",
                 "additionalInformation": "SAPUI5.Component=tgamsns.tgamsmodule",
                 "url": "/apps/tg_ams_module/webapp"
+              },
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              }
+            },
+            "ams_module_cds": {
+              "semanticObject": "ams_module_cds",
+              "action": "display",
+              "resolutionResult": {
+                "applicationType": "SAPUI5",
+                "additionalInformation": "SAPUI5.Component=AMSNSCDS.amsmodulecds",
+                "url": "/apps/ams_module_cds/webapp"
               },
               "signature": {
                 "parameters": {},
